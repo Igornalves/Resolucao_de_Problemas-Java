@@ -41,8 +41,5 @@ public class PrincipalRun {
         System.out.println("seu cnpj é " + PJ.getCnpj());
 
         System.out.println("\n");
-
-
-
     }
 }
