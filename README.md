@@ -26,4 +26,4 @@ Aqui abixo estão os links de outros repositorios que tenho em meu GitHub que po
 
 ---
 
-**Obrigado por ler! Espero que eu tenha ajudado voçê em seus estudos.**
+**Obrigado por ler! Espero que eu tenha ajudado voçê em seus estudos ou sua pesquisa com meu repositório.**
