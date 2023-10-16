@@ -1,11 +1,11 @@
-package programacao_orientada_a_objeto.EmpresaSistema;
+package programacao_orientada_a_objeto.empresa_sistema;
 
 public class Pessoa {
 
-    int idade;
-    String nome;
-    double altura;
-    double peso;
+    private int idade;
+    private String nome;
+    private double altura;
+    private double peso;
 
     public Pessoa() {
     }

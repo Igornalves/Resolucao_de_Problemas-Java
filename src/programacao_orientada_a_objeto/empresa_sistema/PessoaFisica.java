@@ -1,8 +1,8 @@
-package programacao_orientada_a_objeto.EmpresaSistema;
+package programacao_orientada_a_objeto.empresa_sistema;
 
 public class PessoaFisica extends Pessoa {
 
-    int cpf;
+    private int cpf;
 
     public PessoaFisica() {
     }

@@ -1,8 +1,8 @@
-package programacao_orientada_a_objeto.EmpresaSistema;
+package programacao_orientada_a_objeto.empresa_sistema;
 
 public class PessoaJuridica extends Pessoa {
 
-    int cnpj;
+    private int cnpj;
 
     public PessoaJuridica() {
     }

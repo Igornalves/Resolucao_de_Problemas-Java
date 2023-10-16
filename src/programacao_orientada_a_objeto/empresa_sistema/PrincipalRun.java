@@ -1,4 +1,4 @@
-package programacao_orientada_a_objeto.EmpresaSistema;
+package programacao_orientada_a_objeto.empresa_sistema;
 
 import java.util.Scanner;
 

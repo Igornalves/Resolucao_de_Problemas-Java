@@ -1,10 +1,10 @@
-package programacao_orientada_a_objeto.EmpresaSistema;
+package programacao_orientada_a_objeto.empresa_sistema;
 
 public class Funcionario extends Pessoa {
 
-    String SetorDeTrabalho;
-    int QuantidadesDeFuncionarios;
-    int HorarioDeEntrada;
+    private String SetorDeTrabalho;
+    private int QuantidadesDeFuncionarios;
+    private int HorarioDeEntrada;
 
     public Funcionario() {
     }
