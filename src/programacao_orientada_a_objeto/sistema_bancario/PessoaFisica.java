@@ -8,8 +8,10 @@ public class PessoaFisica extends Pessoa {
     public PessoaFisica() {
     }
 
-    public PessoaFisica(String nome, int idade) {
-        super(nome, idade);
+    public PessoaFisica(String nome, String genero, int dataDeNascimento, String cep, String email, String telefone,
+            String cpf, String rg) {
+                
+        super(nome, genero, dataDeNascimento, cep, email, telefone);
         this.cpf = cpf;
         this.rg = rg;
     }
