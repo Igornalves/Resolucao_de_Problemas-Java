@@ -3,7 +3,8 @@ package basico_de_sintaxe;
 import java.util.Scanner;
 
 public class inserir_dados {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+
         Scanner leitor = new Scanner(System.in);
 
         System.out.print("digite seu nome: ");

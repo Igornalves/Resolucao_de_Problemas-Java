@@ -39,5 +39,7 @@ public class estrutura_de_condicao {
         else { // senão, ocorre o que estive dentro dos blocos.
             System.out.println("A idade2 é igual que a idade1");
         }
+
     }
+    
 }

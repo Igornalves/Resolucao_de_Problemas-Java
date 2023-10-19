@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class estrutura_de_codicao_2 {
     public static void main(String[] args) {
-        
+
         Scanner Dados = new Scanner(System.in);
 
         int caso = 0;
 
-            // inicializando variável com um valor qualquer.
+        // inicializando variável com um valor qualquer.
 
         System.out.println(
                 "Digite 1 para mostrar o nome Paulo, 2 para mostrar o nome José, e 3 para mostrar o nome Joyce");
         caso = Dados.nextInt();
 
         switch (caso) {
-            
+
             // inicia-se a estrutura com switch e colocando a variável que quer olhar na
             // frente.
 
