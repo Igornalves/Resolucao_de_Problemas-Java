@@ -1,4 +1,4 @@
-package programacao_orientada_a_objeto.sistema_bancario;
+package programacao_orientada_a_objeto.sistema_bancario.Classes;
 
 public class PessoaJuridica extends Pessoa {
 

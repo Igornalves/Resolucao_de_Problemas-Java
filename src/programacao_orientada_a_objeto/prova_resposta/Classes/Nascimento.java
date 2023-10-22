@@ -1,4 +1,4 @@
-package programacao_orientada_a_objeto.prova_resposta;
+package programacao_orientada_a_objeto.prova_resposta.Classes;
 
 public class Nascimento {
     private String nome;

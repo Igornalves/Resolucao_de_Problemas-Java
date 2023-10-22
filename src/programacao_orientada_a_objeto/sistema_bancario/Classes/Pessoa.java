@@ -1,4 +1,4 @@
-package programacao_orientada_a_objeto.sistema_bancario;
+package programacao_orientada_a_objeto.sistema_bancario.Classes;
 
 public class Pessoa {
 
@@ -37,6 +37,7 @@ public class Pessoa {
     public void setDataDeNascimento(int dataDeNascimento) {
         this.dataDeNascimento = dataDeNascimento;
     }
+
 
     public void setCep(String cep) {
         this.cep = cep;
