@@ -47,9 +47,6 @@ public class Principal {
 
         System.out.println("--------- Informacões sobre seu emprego -------");
 
-
-
-
         System.out.print("\n\n vc poderia me informa o seu CPF: ");
         pessoaFisica.setCpf(leitura.nextLine());
 
