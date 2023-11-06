@@ -1,6 +1,7 @@
-package programacao_orientada_a_objeto.carrosProjeto.Classes;
+package programacao_orientada_a_objeto.Carros.Classes;
 
 public class Carros {
+    
     private int quantidade;
     private String marca;
     private String modelo;
