@@ -1,19 +1,21 @@
 package programacao_orientada_a_objeto.Sistema_Biblioteca.Classes;
 
+import java.util.ArrayList;
+
 public class Biblioteca {
 
-    private String listaDeLivros;
+    // private String listaDeLivros;
+    private ArrayList<String> listaDeLivros = new ArrayList<>();
 
-    public Biblioteca(String listaDeLivros) {
-
+    public Biblioteca(ArrayList<String> listaDeLivros) {
         this.listaDeLivros = listaDeLivros;
     }
 
-    public void setListaDeLivros(String listaDeLivros) {
+    public void setListaDeLivros(ArrayList<String> listaDeLivros) {
         this.listaDeLivros = listaDeLivros;
     }
 
-    public String getListaDeLivros() {
+    public ArrayList<String> getListaDeLivros() {
         return listaDeLivros;
     }
 }

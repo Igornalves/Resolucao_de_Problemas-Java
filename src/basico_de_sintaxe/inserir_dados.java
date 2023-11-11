@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class inserir_dados {
     public static void main(String[] args){
 
+        // Aqui se faz o instanciamento para que possa ser feito a leitura via prompt de comando 
         Scanner leitor = new Scanner(System.in);
 
         System.out.print("digite seu nome: ");

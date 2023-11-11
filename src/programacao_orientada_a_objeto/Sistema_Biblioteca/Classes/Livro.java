@@ -1,23 +1,28 @@
 package programacao_orientada_a_objeto.Sistema_Biblioteca.Classes;
 
-public class Livro extends Autor {
+import java.util.ArrayList;
 
-    private String Categoria;
+public class Livro extends Biblioteca {
+
+    private String[] Categoria = new String[10];
     private String titulo;
     private String numeroDePaginas;
 
-    public Livro(String nomeAutor, int dataDeNascimento, String Categoria, String titulo, String numeroDePaginas) {
-
-        super(nomeAutor, dataDeNascimento);
-        
-        this.Categoria = Categoria;
+    public Livro(ArrayList<String> listaDeLivros, String Categoria, String titulo, String numeroDePaginas) {
+        super(listaDeLivros);
         this.numeroDePaginas = numeroDePaginas;
         this.titulo = titulo;
     }
 
-    public void setCategoria(String categoria) {
-        Categoria = categoria;
+    @Override
+    public void setListaDeLivros(ArrayList<String> listaDeLivros) {
+        // TODO Auto-generated method stub
+        super.setListaDeLivros(listaDeLivros);
     }
+
+    // public void setCategoria(String categoria) {
+    //     Categoria = categoria;
+    // }
 
     public void setNumeroDePaginas(String numeroDePaginas) {
         this.numeroDePaginas = numeroDePaginas;
@@ -25,17 +30,5 @@ public class Livro extends Autor {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public String getCategoria() {
-        return Categoria;
-    }
-
-    public String getNumeroDePaginas() {
-        return numeroDePaginas;
     }
 }

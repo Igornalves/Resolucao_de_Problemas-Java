@@ -2,16 +2,14 @@ package programacao_orientada_a_objeto.Sistema_De_Times.Class;
 
 public class TimesDeSports {
 
-    private int numeroDeTimes;
     private int quantidadeDeJogadores;
-    private int numeroDeCadaJogador;
-    private int vidaTotalDoJogo;
+    private int[] numeroDeCadaJogador = new int[20];
+    private int tempoDeJogo;
     static int posicoesDeCadaJogador;
 
     public TimesDeSports(int numeroDeTimes) {
-        this.numeroDeTimes = numeroDeTimes;
         this.quantidadeDeJogadores = 20;
-        this.vidaTotalDoJogo = 3;
+        this.tempoDeJogo = 3;
     }
 
     public void posicoes() {

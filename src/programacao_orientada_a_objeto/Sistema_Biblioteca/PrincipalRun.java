@@ -15,7 +15,7 @@ public class PrincipalRun {
         // instanciando os objetos na principal para roda tudo no programa
 
         Autor autor = new Autor(null, 0);
-        Livro livro = new Livro(null, 0, null, null, null);
+        Livro livro = new Livro(null, null, null, null);
         Cliente cliente = new Cliente(null, null);
         Biblioteca biblioteca = new Biblioteca(null);
 

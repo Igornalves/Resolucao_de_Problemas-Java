@@ -1,6 +1,5 @@
 package Exercicos_Da_linguagem;
 
-import java.security.SecureRandom;
 import java.util.Scanner;
 
 public class NumerosPrimos {
@@ -12,7 +11,6 @@ public class NumerosPrimos {
         Scanner ler = new Scanner(System.in);
 
         int m;
-
         int resultado, resultado2;
 
         System.out.print("Digite um numero: ");
@@ -28,7 +26,6 @@ public class NumerosPrimos {
             System.out.println("este numero é primo");
         } else {
             System.out.println("este numero não é primo");
-
         }
     }
 
