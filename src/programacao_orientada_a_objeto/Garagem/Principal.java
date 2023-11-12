@@ -1,8 +1,8 @@
-package programacao_orientada_a_objeto.Carros;
+package programacao_orientada_a_objeto.Garagem;
 
 import java.util.Scanner;
 
-import programacao_orientada_a_objeto.Carros.Classes.Carros;
+import programacao_orientada_a_objeto.Garagem.Classes.Carros;
 
 public class Principal {
     public static void main(String[] args) {

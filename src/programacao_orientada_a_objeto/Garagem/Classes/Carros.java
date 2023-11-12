@@ -1,4 +1,4 @@
-package programacao_orientada_a_objeto.Carros.Classes;
+package programacao_orientada_a_objeto.Garagem.Classes;
 
 public class Carros {
     
