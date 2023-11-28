@@ -4,12 +4,40 @@ public class Nascimento {
     private String nome;
     private int dia, mes, ano, hora, minuto;
 
-    public Nascimento(String nome, int dia, int mes, int ano, int hora, int minuto){
-        this.nome = nome; this.dia = dia; this.mes = mes; this.ano = ano;
-        this.hora = hora; this.minuto = minuto;
+    public Nascimento(String nome, int dia, int mes, int ano, int hora, int minuto) {
+        this.nome = nome;
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
+        this.hora = hora;
+        this.minuto = minuto;
     }
 
-    public String getNome(){
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    public void setDia(int dia) {
+        this.dia = dia;
+    }
+
+    public void setHora(int hora) {
+        this.hora = hora;
+    }
+
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
+
+    public void setMinuto(int minuto) {
+        this.minuto = minuto;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
         return this.nome;
     }
 

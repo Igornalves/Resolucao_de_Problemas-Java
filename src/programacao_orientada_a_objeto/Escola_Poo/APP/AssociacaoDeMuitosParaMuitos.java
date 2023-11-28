@@ -30,9 +30,27 @@ public class AssociacaoDeMuitosParaMuitos {
 
         turma1.setAno(2);
         turma1.setSigla("Ensino Medio");
+        turma1.adcionarAluno(aluno1);
+        turma1.adcionarAluno(aluno2);
+        turma1.adcionarAluno(aluno3);
+        turma1.adcionarProfessor(professor1);
+        turma1.adcionarProfessor(professor2);
+        turma1.adcionarProfessor(professor3);
+        turma1.adcionarDisciplina(disciplina1);
+        turma1.adcionarDisciplina(disciplina2);
+        turma1.adcionarDisciplina(disciplina3);
 
         turma2.setAno(1);
         turma2.setSigla("Ensino Medio");
+        turma2.adcionarAluno(aluno4);
+        turma2.adcionarAluno(aluno5);
+        turma2.adcionarAluno(aluno6);
+        turma2.adcionarProfessor(professor1);
+        turma2.adcionarProfessor(professor2);
+        turma2.adcionarProfessor(professor3);
+        turma2.adcionarDisciplina(disciplina1);
+        turma2.adcionarDisciplina(disciplina2);
+        turma2.adcionarDisciplina(disciplina3);
 
         aluno1.setNome("Maycon");
         aluno1.setMatricula(24366218);
@@ -63,7 +81,6 @@ public class AssociacaoDeMuitosParaMuitos {
         aluno6.setMatricula(2435745);
         aluno6.setDataDeNascimento(new Date());
         aluno6.setTurma(turma2);
-
 
         disciplina1.setNomeDisciplina("Matemática");
         disciplina1.setCargaHoraria(1);
@@ -107,11 +124,96 @@ public class AssociacaoDeMuitosParaMuitos {
         professor3.adcionarTurmas(turma2);
         professor3.adcionarTurmas(turma1);
 
-        // System.out.println();
-        // System.out.println();
-        // System.out.println();
-        // System.out.println();
-        // System.out.println();
+        System.out.println(
+                "Estas são todas as materias que a turma " + turma1.getAno() + " " + turma1.getSigla() + " vão ter: ");
+
+        for (int r = 0; r < turma1.quantidadeDeDisciplinas(); r++) {
+            System.out.println("\n" + r + " - " + turma1.getDisciplina(r).getNomeDisciplina());
+        }
+
+        System.out.print("\n");
+
+        System.out.println(
+                "Estas são todas as materias que a turma " + turma2.getAno() + " " + turma2.getSigla() + " vão ter: ");
+
+        for (int r = 0; r < turma2.quantidadeDeDisciplinas(); r++) {
+            System.out.println("\n" + r + " - " + turma2.getDisciplina(r).getNomeDisciplina());
+        }
+
+        System.out.print("\n");
+
+        System.out.println("Estes são todos os alunos da turma do " + turma1.getAno() + " " + turma1.getSigla());
+
+        for (int s = 0; s < turma1.quantidadeDeAlunos(); s++) {
+            System.out.println("\n" + s + " - " + turma1.getAluno(s).getNome());
+        }
+
+        System.out.print("\n");
+
+        System.out.println("Estes são todos os alunos da turma do " + turma2.getAno() + " " + turma2.getSigla());
+
+        for (int s = 0; s < turma2.quantidadeDeAlunos(); s++) {
+            System.out.println("\n" + s + " - " + turma2.getAluno(s).getNome());
+        }
+
+        System.out.print("\n");
+
+        System.out.println("O professor que da a disciplina: "+ professor1.getDisciplina(0).getNomeDisciplina()+ "\no nome do professor: "+ professor1.getNome()+ "\nmatricula do professor: "+ professor1.getMatricula()+ "\nFormacao academica do professor: "+ professor1.getFormacaoAcademica()+ "\nsalario do professor: "+professor1.getSalario());
+
+        System.out.print("\n");
+
+        System.out.print("\n");
+
+        System.out.println("O professor que da a disciplina: "+ professor2.getDisciplina(0).getNomeDisciplina()+ "\no nome do professor: "+ professor2.getNome()+ "\nmatricula do professor: "+ professor2.getMatricula()+ "\nFormacao academica do professor: "+ professor2.getFormacaoAcademica()+ "\nsalario do professor: "+professor2.getSalario());
+
+        System.out.print("\n");
+
+        System.out.print("\n");
+
+        System.out.println("O professor que da a disciplina: "+ professor3.getDisciplina(0).getNomeDisciplina()+ "\no nome do professor: "+ professor3.getNome()+ "\nmatricula do professor: "+ professor3.getMatricula()+ "\nFormacao academica do professor: "+ professor3.getFormacaoAcademica()+ "\nsalario do professor: "+professor3.getSalario());
+
+        System.out.print("\n");
+
+        System.out.println("O aluno da turma do " + aluno1.getTurma().getAno() + " " +
+                aluno1.getTurma().getSigla() + "\nnome de: " + aluno1.getNome() +
+                "\nmatricula " + aluno1.getMatricula() + "\ndata de nascimento: "
+                + aluno1.getDataDeNascimento());
+
+        System.out.print("\n");
+
+        System.out.println("O aluno da turma do " + aluno2.getTurma().getAno() + " " +
+                aluno2.getTurma().getSigla() + "\nnome de: " + aluno2.getNome() +
+                "\nmatricula " + aluno2.getMatricula() + "\ndata de nascimento: "
+                + aluno2.getDataDeNascimento());
+
+        System.out.print("\n");
+
+        System.out.println("O aluno da turma do " + aluno3.getTurma().getAno() + " " +
+                aluno3.getTurma().getSigla() + "\nnome de: " + aluno3.getNome() +
+                "\nmatricula " + aluno3.getMatricula() + "\ndata de nascimento: "
+                + aluno3.getDataDeNascimento());
+
+        System.out.print("\n");
+
+        System.out.println("O aluno da turma do " + aluno4.getTurma().getAno() + " " +
+                aluno4.getTurma().getSigla() + "\nnome de: " + aluno4.getNome() +
+                "\nmatricula " + aluno4.getMatricula() + "\ndata de nascimento: "
+                + aluno4.getDataDeNascimento());
+
+        System.out.print("\n");
+
+        System.out.println("O aluno da turma do " + aluno5.getTurma().getAno() + " " +
+                aluno5.getTurma().getSigla() + "\nnome de: " + aluno5.getNome() +
+                "\nmatricula " + aluno5.getMatricula() + "\ndata de nascimento: "
+                + aluno5.getDataDeNascimento());
+
+        System.out.print("\n");
+
+        System.out.println("O aluno da turma do " + aluno6.getTurma().getAno() + " " +
+                aluno6.getTurma().getSigla() + "\nnome de: " + aluno6.getNome() +
+                "\nmatricula " + aluno6.getMatricula() + "\ndata de nascimento: "
+                + aluno6.getDataDeNascimento());
+
         System.out.println();
 
         System.out.println("Na disciplina de MATEMATICA tem este total de PROFESSORES: \n");

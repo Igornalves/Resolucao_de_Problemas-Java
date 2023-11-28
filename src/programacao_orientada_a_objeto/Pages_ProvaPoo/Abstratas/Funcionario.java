@@ -1,5 +1,5 @@
-package programacao_orientada_a_objeto.Pages_ProvaPoo.Funcionarios;
+package programacao_orientada_a_objeto.Pages_ProvaPoo.Abstratas;
 
-public class Funcionario {
+public abstract class Funcionario {
     
 }

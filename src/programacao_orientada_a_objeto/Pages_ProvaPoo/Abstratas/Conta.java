@@ -1,5 +1,5 @@
-package programacao_orientada_a_objeto.Pages_ProvaPoo.Contas;
+package programacao_orientada_a_objeto.Pages_ProvaPoo.Abstratas;
 
-public class Conta {
+public abstract class Conta {
     
 }

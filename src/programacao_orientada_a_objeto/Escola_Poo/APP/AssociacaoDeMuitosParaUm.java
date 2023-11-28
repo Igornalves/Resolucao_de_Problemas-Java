@@ -13,8 +13,8 @@ public class AssociacaoDeMuitosParaUm {
 
         Turma turma1 = new Turma();
         
-        turma1.setSigla("1A");
         turma1.setAno(1);
+        turma1.setSigla("1A");
         turma1.adcionarAluno(aluno1);
         turma1.adcionarAluno(aluno2);
 
