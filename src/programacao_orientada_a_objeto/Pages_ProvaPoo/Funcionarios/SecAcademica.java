@@ -1,6 +1,9 @@
 package programacao_orientada_a_objeto.Pages_ProvaPoo.Funcionarios;
 
-public class SecAcademica {
+import programacao_orientada_a_objeto.Pages_ProvaPoo.Abstratas.Funcionario;
+import programacao_orientada_a_objeto.Pages_ProvaPoo.Interfaces.Secretaria;
+
+public class SecAcademica extends Funcionario implements Secretaria {
 
     
 }

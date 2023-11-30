@@ -1,4 +1,4 @@
-package programacao_orientada_a_objeto.Lista_Ligada_EstruturaDeDados.Class;
+package estrutura_de_dados.lista_ligada_estrutura_de_dados.Class;
 
 public class ListaLigado {
 

@@ -1,6 +1,6 @@
-package programacao_orientada_a_objeto.Lista_Ligada_EstruturaDeDados.App;
+package estrutura_de_dados.lista_ligada_estrutura_de_dados.App;
 
-import programacao_orientada_a_objeto.Lista_Ligada_EstruturaDeDados.Class.ListaLigado;
+import estrutura_de_dados.lista_ligada_estrutura_de_dados.Class.ListaLigado;
 
 public class Principal {
     public static void main(String[] args) {

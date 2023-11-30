@@ -83,20 +83,20 @@ public class AssociacaoDeMuitosParaMuitos {
         aluno6.setTurma(turma2);
 
         disciplina1.setNomeDisciplina("Matemática");
-        disciplina1.setCargaHoraria(1);
+        disciplina1.setCargaHoraria(80);
         disciplina1.adcionarProfessor(professor1);
         disciplina1.adcionarProfessor(professor2);
         disciplina1.adcionarTurmas(turma1);
         disciplina1.adcionarTurmas(turma2);
 
         disciplina2.setNomeDisciplina("Portugues");
-        disciplina2.setCargaHoraria(1);
+        disciplina2.setCargaHoraria(80);
         disciplina2.adcionarProfessor(professor2);
         disciplina2.adcionarTurmas(turma2);
         disciplina2.adcionarTurmas(turma1);
 
         disciplina3.setNomeDisciplina("Educação Fisica");
-        disciplina3.setCargaHoraria(1);
+        disciplina3.setCargaHoraria(80);
         disciplina3.adcionarProfessor(professor3);
         disciplina3.adcionarTurmas(turma2);
         disciplina3.adcionarTurmas(turma2);
