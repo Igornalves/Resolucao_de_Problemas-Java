@@ -19,12 +19,12 @@ public class Fatorial {
 
         // Escreva um programa que calcule o fatorial de um número inteiro não negativo.
 
-        Scanner ler = new Scanner(System.in);
         Fatorial f = new Fatorial();    
+        Scanner ler = new Scanner(System.in);
 
-        System.out.println("digite o numero para saber seu fatorial: ");
+        System.out.print("digite o numero para saber seu fatorial: ");
         // f.fatorial(ler.nextInt());
 
-        System.out.println("valor do calculo do fatorial é: " + f.fatorial(ler.nextInt()));
+        System.out.println("\n\nvalor do calculo do fatorial é: " + f.fatorial(ler.nextInt())+ "\n");
     }
 }
