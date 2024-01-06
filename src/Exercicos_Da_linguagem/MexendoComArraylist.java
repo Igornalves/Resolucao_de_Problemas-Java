@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class MexendoComArraylist {
     public static void main(String[] args) {
+        
         ArrayList<String> nomes = new ArrayList<>();
 
         nomes.add("carlos eduardo");

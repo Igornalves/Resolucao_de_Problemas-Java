@@ -2,9 +2,11 @@ package Exercicos_Da_linguagem;
 
 import java.util.Scanner;
 
-public class Fatorial {
+// Escreva um programa que calcule o fatorial de um número inteiro não negativo.
 
-    // criando um metodo recursivo que faz o calculo de fatorial
+// criando um metodo recursivo que faz o calculo de fatorial
+
+public class Fatorial {
 
     public int fatorial(int n) {
         System.out.printf("\n" + n + "x %d", n);
@@ -16,8 +18,6 @@ public class Fatorial {
     }
 
     public static void main(String[] args) {
-
-        // Escreva um programa que calcule o fatorial de um número inteiro não negativo.
 
         Fatorial f = new Fatorial();    
         Scanner ler = new Scanner(System.in);

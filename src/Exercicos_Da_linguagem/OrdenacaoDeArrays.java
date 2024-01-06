@@ -5,10 +5,12 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class OrdenacaoDeArrays {
+
+    // Escreva um programa que ordene um array de inteiros em ordem crescente ou
+    // decrescente.
+    
     public static void main(String[] args) {
 
-        // Escreva um programa que ordene um array de inteiros em ordem crescente ou
-        // decrescente.
 
         Scanner ler = new Scanner(System.in);
         ArrayList<String> Listascores = new ArrayList<>();

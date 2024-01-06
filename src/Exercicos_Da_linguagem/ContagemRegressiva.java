@@ -1,10 +1,12 @@
 package Exercicos_Da_linguagem;
 
 public class ContagemRegressiva {
+
+    // Escreva um programa que faça uma contagem regressiva a partir de 10 até 1 e
+    // depois imprima "Fogo!".
+    
     public static void main(String[] args) {
 
-        // Escreva um programa que faça uma contagem regressiva a partir de 10 até 1 e
-        // depois imprima "Fogo!".
 
         System.out.println("contagem regressiva começa em: \n");
 

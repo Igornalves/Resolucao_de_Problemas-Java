@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL 16",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "08901"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL 16",
+            "database": "aprendendo_sql",
+            "username": "igorn",
+            "password": "08901"
+        }
+    ]
+}

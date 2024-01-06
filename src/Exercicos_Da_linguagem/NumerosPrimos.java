@@ -3,10 +3,12 @@ package Exercicos_Da_linguagem;
 import java.util.Scanner;
 
 public class NumerosPrimos {
+    
+    // Escreva um programa que determine e imprima todos os números primos no
+    // intervalo de 1 a 100.
+
     public static void main(String[] args) {
 
-        // Escreva um programa que determine e imprima todos os números primos no
-        // intervalo de 1 a 100.
 
         Scanner ler = new Scanner(System.in);
 

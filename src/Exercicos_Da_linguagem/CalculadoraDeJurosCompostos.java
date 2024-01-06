@@ -3,10 +3,12 @@ package Exercicos_Da_linguagem;
 import java.util.Scanner;
 
 public class CalculadoraDeJurosCompostos {
+    
+    // Crie um programa que calcule o valor futuro de um investimento com juros
+    // compostos.
+
     public static void main(String[] args) {
 
-        // Crie um programa que calcule o valor futuro de um investimento com juros
-        // compostos.
 
         Scanner input = new Scanner(System.in);
 

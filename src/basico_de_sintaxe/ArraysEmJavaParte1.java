@@ -51,9 +51,7 @@ public class ArraysEmJavaParte1 {
         // que vc pode usar para acessar todos os casos acima
 
         for (int e = 0; e < cars.length; e++) {
-
             System.out.println("acessando o array cars atravez de um loop:  " + cars[e] + "\n");
-
         }
 
         // usando este print para separa os for um dos outro para ficar organzados
@@ -61,16 +59,13 @@ public class ArraysEmJavaParte1 {
         System.out.println("\n");
 
         for (int w = 0; w < posicao.length; w++) {
-
             System.out.println("usando o for para ver o array: " + posicao[w] + "\n");
         }
 
         System.out.println("\n");
 
         for (int q = 0; q < nomes.length; q++) {
-
             System.out.println("Aluno chamando de: " + nomes[q] + "\n");
-
         }
 
         System.out.println("\n");

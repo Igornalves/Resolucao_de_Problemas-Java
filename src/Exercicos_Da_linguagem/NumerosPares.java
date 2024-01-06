@@ -3,9 +3,11 @@ package Exercicos_Da_linguagem;
 import java.util.Scanner;
 
 public class NumerosPares {
+
+    // Escreva um programa que calcule a soma de todos os números pares de 1 a 100.
+    
     public static void main(String[] args) {
         
-        // Escreva um programa que calcule a soma de todos os números pares de 1 a 100.
 
         Scanner ler = new Scanner(System.in);
 

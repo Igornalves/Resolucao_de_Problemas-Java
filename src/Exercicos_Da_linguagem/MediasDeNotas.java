@@ -3,17 +3,19 @@ package Exercicos_Da_linguagem;
 import java.util.Scanner;
 
 public class MediasDeNotas {
+
+    // Escreva um programa que calcule a média de notas de um aluno em um conjunto
+    // de disciplinas.
+    
     public static void main(String[] args) {
 
-        // Escreva um programa que calcule a média de notas de um aluno em um conjunto
-        // de disciplinas.
 
         Scanner input = new Scanner(System.in);
 
-        double nota1, nota2, nota3, nota4;
+        double nota1, nota2, nota3, nota4, nota5;
         double resultadoDaMedia;
         double somaMediaSemestral;
-        double media = 7.0;
+        double media = 5.5;
 
         System.out.print("---------------------------------------------------\n");
         System.out.println("|| Seja Bem Vindo Ao Sistema de Notas Semestrais ||");
@@ -34,9 +36,12 @@ public class MediasDeNotas {
         System.out.print("\ndigite sua Quarta nota: ");
         nota4 = input.nextDouble();
 
-        somaMediaSemestral = nota1 + nota2 + nota3 + nota4;
+        System.out.print("\ndigite sua Quarta nota: ");
+        nota5 = input.nextDouble();
 
-        resultadoDaMedia = somaMediaSemestral / 4;
+        somaMediaSemestral = nota1 + nota2 + nota3 + nota4 + nota5;
+
+        resultadoDaMedia = somaMediaSemestral / 5;
 
         if (resultadoDaMedia >= media) {
             System.out.print("\n\n------------------------------------------");

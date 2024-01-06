@@ -3,9 +3,11 @@ package Exercicos_Da_linguagem;
 import java.util.Scanner;
 
 public class Tabuada {
+    
+    // Escreva um programa que imprima a tabuada de multiplicação de um número específico (por exemplo, 7).
+
     public static void main(String[] args) {
         
-        // Escreva um programa que imprima a tabuada de multiplicação de um número específico (por exemplo, 7).
 
         Scanner ler = new Scanner(System.in);
 

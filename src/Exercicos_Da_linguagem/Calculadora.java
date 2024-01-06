@@ -3,10 +3,11 @@ package Exercicos_Da_linguagem;
 import java.util.Scanner;
 
 public class Calculadora {
-    public static void main(String[] args) {
 
-        // Crie um programa que funcione como uma calculadora simples para realizar
-        // operações de adição, subtração, multiplicação e divisão.
+    // Crie um programa que funcione como uma calculadora simples para realizar
+    // operações de adição, subtração, multiplicação e divisão.
+
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
