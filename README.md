@@ -1,6 +1,6 @@
 # Aprendendo_linguagem-Java
 
-Um projeto feito por um **iniciante/intermediario** em programação com total intuito de aprender a tecnologia Java:
+Um projeto feito por um `iniciante/intermediario` em programação com total intuito de aprender a tecnologia Java:
 
 <div align="center" style="display: inline_block">
 <img  alt="java" width="190" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
@@ -19,11 +19,11 @@ deixando comentados para que vcs possam entender, os que estiverem interesados, 
 
 Aqui abixo estão os links de outros repositorios que tenho em meu GitHub que possa se interressa:
 
-- [Linguagem-C](https://github.com/Igornalves/Linguagem-C)
-- [Projeto_Site-WhatsappBot](https://github.com/Igornalves/Projeto_Site-WhatsappBot)
-- [Linguagem-Python](https://github.com/Igornalves/Linguagem-Python)
-- [Biblioteca-React](https://github.com/Igornalves/Biblioteca-React)
-- [FRONT-END_PROJETOS](https://github.com/Igornalves/FRONT-END_PROJETOS)
+- >[Linguagem-C](https://github.com/Igornalves/Linguagem-C)
+- >[Projeto_Site-WhatsappBot](https://github.com/Igornalves/Projeto_Site-WhatsappBot)
+- >[Linguagem-Python](https://github.com/Igornalves/Linguagem-Python)
+- >[Biblioteca-React](https://github.com/Igornalves/Biblioteca-React)
+- >[FRONT-END_PROJETOS](https://github.com/Igornalves/FRONT-END_PROJETOS)
 
 ---
 

@@ -13,9 +13,11 @@ public class ArraysEmJavaParte2 {
         nome[0][0] = "Carlos";
         nome[0][1] = "maria";
         nome[0][2] = "maycon";
+
         nome[1][0] = "sara";
         nome[1][1] = "joao";
         nome[1][2] = "gaby";
+        
         nome[2][0] = "matheus";
         nome[2][1] = "luiz";
         nome[2][2] = "jose";

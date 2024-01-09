@@ -10,6 +10,7 @@ public class PesquisaDeEstadosDoBrasil {
         String[] estados = new String[10];
 
         String procurandoEstado;
+        
         boolean pesquisa = false;
 
         estados[0] = "Ceara";
