@@ -24,4 +24,8 @@ public class SubindoEscadas {
     public static void main(String[] args) {
         
     }
+
+    private static void subindoEscada(int num){
+        
+    }
 }

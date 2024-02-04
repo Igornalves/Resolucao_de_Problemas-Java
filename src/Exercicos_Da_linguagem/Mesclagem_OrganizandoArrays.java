@@ -1,9 +1,5 @@
 package Exercicos_Da_linguagem;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class Mesclagem_OrganizandoArrays {
 
     // Auxiliar Dada duas listas vinculadas classificadas que consistem em nós N e M  , respectivamente. A tarefa é mesclar ambas as listas (no lugar) e retornar o cabeçalho da lista mesclada.
@@ -19,32 +15,37 @@ public class Mesclagem_OrganizandoArrays {
         int[] num1 = new int[10];
         int[] num2 = new int[10];
 
-        System.out.println("array de numero 1: \n");
+        System.out.println("\narray de numero 1: ");
 
         for (int i = 0; i < num1.length; i++) {
-            ;
             num1[i] = (int) (Math.random() * 50);
-            System.out.println(num1[i]);
+            System.out.print(num1[i]+" ");
         }
 
-        System.out.println("\narray de numero 2: \n");
+        System.out.println("\n\narray de numero 2: ");
 
         for (int i = 0; i < num2.length; i++) {
             num2[i] = (int) (Math.random() * 50);
-            System.out.println(num2[i]);
+            System.out.print(num2[i]+" ");
         }
 
         int[] mesclandoArray = new int[num1.length + num2.length];
 
-        System.out.println("\nfazendo a mesclagem e organização do arrays mesclado: \n");
-
+        System.out.println("\n\nfazendo a mesclagem dos arrays: ");
+        
         System.arraycopy(num1, 0, mesclandoArray, 0, num1.length);
         System.arraycopy(num2, 0, mesclandoArray, num1.length, num2.length);
-
-        InsertSort(mesclandoArray);
-
+        
         for (int t = 0; t < mesclandoArray.length; t++) {
-            System.out.println(mesclandoArray[t]);
+            System.out.print(mesclandoArray[t]+" ");
+        }
+        
+        System.out.println("\n\nfazendo a organizacao dos arrays mesclados: ");
+        
+        InsertSort(mesclandoArray);
+        
+        for (int t = 0; t < mesclandoArray.length; t++) {
+            System.out.print(mesclandoArray[t]+" ");
         }
 
         // Arrays.sort(mesclandoArray);

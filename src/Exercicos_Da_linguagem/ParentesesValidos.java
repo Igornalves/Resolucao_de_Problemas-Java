@@ -34,12 +34,14 @@ public class ParentesesValidos {
         String objeto5 = "{";
         String objeto6 = "}";
 
+        System.out.print("\n");
+
         juntandoCaracteres(objeto5, objeto6);
         juntandoCaracteres(objeto1, objeto6);
         juntandoCaracteres(objeto1, objeto2);
         juntandoCaracteres(objeto3, objeto4);
 
-        System.out.println("\n");
+        System.out.print("\n");
         
         juntandoCaracteresDeFormaMelhor(objeto5, objeto6);
         juntandoCaracteresDeFormaMelhor(objeto3, objeto4);
@@ -101,5 +103,6 @@ public class ParentesesValidos {
                     System.out.println("Infelizmente os caracteres são diferentes um do outro");
                 break;
         }
+        verificacao = false;
     }
 }
