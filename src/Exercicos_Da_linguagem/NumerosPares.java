@@ -9,6 +9,7 @@ public class NumerosPares {
     public static void main(String[] args) {
         
 
+        @SuppressWarnings("resource")
         Scanner ler = new Scanner(System.in);
 
         int num;

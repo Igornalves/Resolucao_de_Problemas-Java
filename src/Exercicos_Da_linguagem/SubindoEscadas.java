@@ -25,6 +25,7 @@ public class SubindoEscadas {
         
     }
 
+    @SuppressWarnings("unused")
     private static void subindoEscada(int num){
         
     }

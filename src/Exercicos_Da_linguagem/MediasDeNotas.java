@@ -10,6 +10,7 @@ public class MediasDeNotas {
     public static void main(String[] args) {
 
 
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
 
         double nota1, nota2, nota3, nota4, nota5;

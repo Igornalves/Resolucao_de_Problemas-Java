@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PesquisaDeEstadosDoBrasil {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
 
         String[] estados = new String[10];

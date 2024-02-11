@@ -22,6 +22,7 @@ public class MatematicaEmJava {
         Math.random();
 
         // Exemplo abaixo
+        @SuppressWarnings("unused")
         int randomNum = (int)(Math.random() * 101);  // 0 to 100
     }
 }

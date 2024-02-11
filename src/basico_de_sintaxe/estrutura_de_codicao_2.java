@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class estrutura_de_codicao_2 {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner Dados = new Scanner(System.in);
 
         int caso = 0;

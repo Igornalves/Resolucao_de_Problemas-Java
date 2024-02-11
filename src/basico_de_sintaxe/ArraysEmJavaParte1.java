@@ -16,6 +16,7 @@ public class ArraysEmJavaParte1 {
 
         // aqui tambem outro estilo de array que pode ser feito ok
 
+        @SuppressWarnings("unused")
         String[] nomeArquivo;
 
         // usando o new para instancia uma string que tera 3 posições no espaço de

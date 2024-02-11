@@ -52,6 +52,7 @@ public class ParentesesValidos {
     }
 
     private static void juntandoCaracteres(String caractere1, String caractere2) {
+        @SuppressWarnings("unused")
         boolean verificacao = false;
 
         if (caractere1 == "(" && caractere2 == ")") {
@@ -74,6 +75,7 @@ public class ParentesesValidos {
 
     private static void juntandoCaracteresDeFormaMelhor(String caractere1, String caractere2) {
 
+        @SuppressWarnings("unused")
         boolean verificacao = false;
 
         switch (caractere1) {

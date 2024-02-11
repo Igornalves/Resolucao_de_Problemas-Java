@@ -20,6 +20,7 @@ public class Fatorial {
     public static void main(String[] args) {
 
         Fatorial f = new Fatorial();    
+        @SuppressWarnings("resource")
         Scanner ler = new Scanner(System.in);
 
         System.out.print("digite o numero para saber seu fatorial: ");

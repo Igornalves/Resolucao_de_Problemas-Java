@@ -6,6 +6,5 @@ public class CalculadoraPorcentagem {
 
     public static void main(String[] args) {
 
-        
     }
 }

@@ -10,6 +10,7 @@ public class TabuadaParte2 {
     public static void main(String[] args) {
 
 
+        @SuppressWarnings("resource")
         Scanner ler = new Scanner(System.in);
 
         int num;

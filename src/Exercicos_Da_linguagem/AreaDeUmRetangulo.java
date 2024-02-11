@@ -8,6 +8,7 @@ public class AreaDeUmRetangulo {
 
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
 
         int base = 0;

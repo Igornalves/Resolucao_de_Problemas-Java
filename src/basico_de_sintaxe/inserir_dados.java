@@ -7,6 +7,7 @@ public class inserir_dados {
 
         // Aqui se faz o instanciamento para que possa ser feito a leitura via prompt de comando 
         
+        @SuppressWarnings("resource")
         Scanner leitor = new Scanner(System.in);
 
         System.out.print("digite seu nome: ");

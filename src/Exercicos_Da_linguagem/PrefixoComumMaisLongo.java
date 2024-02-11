@@ -31,6 +31,7 @@ public class PrefixoComumMaisLongo {
         
     }
 
+    @SuppressWarnings("unused")
     private static String prefixoProcurado(String[] arrayDeEntrada , String prefixo){
 
         HashMap<String[],String> ProcurandoPrefixo = new HashMap<>();

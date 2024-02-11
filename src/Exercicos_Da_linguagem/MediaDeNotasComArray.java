@@ -7,6 +7,7 @@ public class MediaDeNotasComArray {
     public static void main(String[] args) {
 
         ArrayList<Double> notas = new ArrayList<>();
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
 
         double somaMediaSemestral;

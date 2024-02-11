@@ -1,6 +1,7 @@
 package basico_de_sintaxe;
 
 public class operadores_logicos {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
 
         // Exemplo da funcionalidade do operador lógico "&&" (AND)
