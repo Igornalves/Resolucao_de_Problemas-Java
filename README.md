@@ -15,16 +15,6 @@ Algums desse projetos eu estarei
 deixando comentados para que vcs possam entender, os que estiverem interesados, no que esta acontencendo no projeto e no codigo.
 <br>
 
-## Links Úteis
-
-Aqui abixo estão os links de outros repositorios que tenho em meu GitHub que possa se interressa:
-
-- >[Linguagem-C](https://github.com/Igornalves/Linguagem-C)
-- >[Projeto_Site-WhatsappBot](https://github.com/Igornalves/Projeto_Site-WhatsappBot)
-- >[Linguagem-Python](https://github.com/Igornalves/Linguagem-Python)
-- >[Biblioteca-React](https://github.com/Igornalves/Biblioteca-React)
-- >[FRONT-END_PROJETOS](https://github.com/Igornalves/FRONT-END_PROJETOS)
-
 ---
 
 **Obrigado por ler! Espero que eu tenha ajudado voçê em seus estudos ou sua pesquisa com meu repositório.**
