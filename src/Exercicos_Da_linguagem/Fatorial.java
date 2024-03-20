@@ -9,7 +9,9 @@ import java.util.Scanner;
 public class Fatorial {
 
     public int fatorial(int n) {
-        System.out.printf("\n" + n + "x %d", n);
+
+        System.out.printf("\n" + n + "x %d", n);        
+
         if (n == 1) {
             return n;
         } else {
@@ -19,12 +21,13 @@ public class Fatorial {
 
     public static void main(String[] args) {
 
-        Fatorial f = new Fatorial();    
+        Fatorial f = new Fatorial(); 
+
         @SuppressWarnings("resource")
         Scanner ler = new Scanner(System.in);
 
         System.out.print("digite o numero para saber seu fatorial: ");
-        // f.fatorial(ler.nextInt());
+        f.fatorial(ler.nextInt());
 
         System.out.println("\n\nvalor do calculo do fatorial é: " + f.fatorial(ler.nextInt())+ "\n");
     }
