@@ -1,7 +1,7 @@
 package basico_de_sintaxe;
 
 public class CastingEmJava {
-
+    
     // A conversão de tipo ocorre quando você atribui um valor de um tipo de dados
     // primitivo a outro tipo.
 
